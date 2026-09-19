@@ -1,0 +1,6 @@
+{
+  "name": "Sri Laxmi Narasimha Nutrition Centre",
+  "description": "Official platform for Sri Laxmi Narasimha Nutrition Centre, Warangal (Founder: Sangem Srivijayalaxmi). Comprehensive wellness assessments, community health camps, pure nutrition store with UPI/online payments, location map, and AI guidance.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

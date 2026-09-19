@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&amp;family=Plus+Jakarta+Sans:wght@600&amp;display=swap');
+      .serif-brand {
+        font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
+        font-weight: 700;
+        fill: #144424;
+      }
+      .sans-sub {
+        font-family: 'Plus Jakarta Sans', 'Segoe UI', Arial, sans-serif;
+        font-weight: 600;
+        fill: #467C29;
+        letter-spacing: 7px;
+      }
+      .rule-line {
+        stroke: #467C29;
+        stroke-width: 6;
+        stroke-linecap: round;
+      }
+      .leaf {
+        fill: #174828;
+      }
+    </style>
+  </defs>
+
+  <!-- Clean crisp background -->
+  <rect width="1200" height="800" fill="#FFFFFF" />
+
+  <!-- 3 LEAVES EMBLEM -->
+  <g transform="translate(600, 270)">
+    <!-- Leaf 1 (Left - tilted up-left ~45 deg) -->
+    <path class="leaf" d="M -15, -15 
+      C -85, -25 -145, -75 -180, -145 
+      C -185, -155 -182, -162 -170, -165 
+      C -110, -175 -45, -135 -5, -45 
+      C 5, -25 0, -10 -15, -15 Z" />
+
+    <!-- Leaf 2 (Center-Top - taller, tilted right ~25 deg) -->
+    <path class="leaf" d="M 5, -35 
+      C -15, -115 15, -195 85, -245 
+      C 95, -252 105, -248 112, -238 
+      C 142, -170 125, -95 45, -25 
+      C 25, -10 10, -15 5, -35 Z" />
+
+    <!-- Leaf 3 (Bottom-Right - tilted down-right ~65 deg) -->
+    <path class="leaf" d="M 12, 10 
+      C 15, -50 75, -95 145, -85 
+      C 158, -82 165, -72 162, -60 
+      C 150, 20 85, 80 15, 65 
+      C 2, 62 8, 30 12, 10 Z" />
+  </g>
+
+  <!-- BRAND NAME: Sri Laxmi Narasimha -->
+  <text x="600" y="535" text-anchor="middle" font-size="78" class="serif-brand">Sri Laxmi Narasimha</text>
+
+  <!-- DIVIDER LINES & SUBTITLE: Nutrition Centre -->
+  <g transform="translate(600, 605)">
+    <!-- Left Line -->
+    <line x1="-480" y1="-10" x2="-330" y2="-10" class="rule-line" />
+    
+    <!-- Text: Nutrition Centre -->
+    <text x="0" y="2" text-anchor="middle" font-size="44" class="sans-sub">Nutrition Centre</text>
+    
+    <!-- Right Line -->
+    <line x1="330" y1="-10" x2="480" y2="-10" class="rule-line" />
+  </g>
+</svg>
